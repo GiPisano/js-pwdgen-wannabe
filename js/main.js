@@ -13,7 +13,7 @@ const userFavoriteColor = prompt('Qual è il tuo colore preferito?') ;
 console.log(userFavoriteColor);
 
 // stampo la password creata
-userPassword.innerText = 'La password che abbiamo generato per te è' + ' ' + userName + userSurname + userFavoriteColor + 24;;
+userPassword.innerText = 'La password che abbiamo generato per te è' + ' ' + userName + userSurname + userFavoriteColor + 23;
 
 
 
