@@ -1,3 +1,4 @@
+const userNumberPassword = parseInt('23');
 const userPassword = document.getElementById('password')
 
 // chiedo all'utente il suo nome 
@@ -13,7 +14,7 @@ const userFavoriteColor = prompt('Qual è il tuo colore preferito?') ;
 console.log(userFavoriteColor);
 
 // stampo la password creata
-userPassword.innerText = 'La password che abbiamo generato per te è' + ' ' + userName + userSurname + userFavoriteColor + 23;
+userPassword.innerText = 'La password che abbiamo generato per te è' + ' ' + userName + userSurname + userFavoriteColor + userNumberPassword;
 
 
 
