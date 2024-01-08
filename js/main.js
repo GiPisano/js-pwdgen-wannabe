@@ -1,4 +1,4 @@
-const userNumberPassword = parseInt('23');
+const userNumberPassword = '23';
 const userPassword = document.getElementById('password')
 
 // chiedo all'utente il suo nome 
